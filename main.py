@@ -1,4 +1,3 @@
-from random import random
 import pygame as pg
 
 pg.init()
@@ -22,7 +21,6 @@ def main():
     currentPlayer = player1
     RUN = True
     while RUN:
-        mousePos = pg.mouse.get_pos()
         for event in pg.event.get():
             if event.type == pg.QUIT:
                 RUN = False
