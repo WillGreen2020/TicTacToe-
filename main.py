@@ -1,4 +1,5 @@
 import pygame as pg
+import pygame.gfxdraw
 
 pg.init()
 pg.font.init()
@@ -77,7 +78,7 @@ def main():
                         ['g', 'h', 'i']
                     ]
                     currentPlayer = player1
-                    Winner = ''
+                    winner = 'TIE'
                     isWin = False
                     movesCounter = 0
 
