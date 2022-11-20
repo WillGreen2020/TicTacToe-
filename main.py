@@ -5,7 +5,7 @@ pg.init()
 CLOCK = pg.time.Clock()
 WIN = pg.display.set_mode((399, 399))
 pg.display.set_caption("Tic Tac Toe")
-pg.display.set_icon(pg.image.load('assets\icon.png'))
+pg.display.set_icon(pg.image.load('icon.png'))
 
 FPS = 60
 scale = 133
